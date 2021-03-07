@@ -9,6 +9,7 @@ InMemoryCache are using in app by default.
 To use Redis:
 
 replace in Startup.cs:
+
             //services.AddTransient<ICacheProvider<Dictionary<string, string>>, RedisCache>();
             services.AddTransient<ICacheProvider<Dictionary<string, string>>, InMemoryCache>();
             
