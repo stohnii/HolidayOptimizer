@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolidayOptimizer", "HolidayOptimizer\HolidayOptimizer.csproj", "{34F147DD-C0DE-4184-A95F-528CCA179CD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HolidayOptimizer.Tests", "HolidayOptimizer.Tests\HolidayOptimizer.Tests.csproj", "{B0EAEE32-7271-402E-8470-FFF6D5D83695}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34F147DD-C0DE-4184-A95F-528CCA179CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34F147DD-C0DE-4184-A95F-528CCA179CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34F147DD-C0DE-4184-A95F-528CCA179CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34F147DD-C0DE-4184-A95F-528CCA179CD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0EAEE32-7271-402E-8470-FFF6D5D83695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0EAEE32-7271-402E-8470-FFF6D5D83695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0EAEE32-7271-402E-8470-FFF6D5D83695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0EAEE32-7271-402E-8470-FFF6D5D83695}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23409E97-785C-4A3C-AEBB-82BC7160F69C}
+	EndGlobalSection
+EndGlobal
