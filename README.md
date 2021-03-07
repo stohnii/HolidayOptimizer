@@ -11,7 +11,9 @@ To use Redis:
 replace in Startup.cs:
             //services.AddTransient<ICacheProvider<Dictionary<string, string>>, RedisCache>();
             services.AddTransient<ICacheProvider<Dictionary<string, string>>, InMemoryCache>();
+            
 with
+
             services.AddTransient<ICacheProvider<Dictionary<string, string>>, RedisCache>();
             //services.AddTransient<ICacheProvider<Dictionary<string, string>>, InMemoryCache>();
             
